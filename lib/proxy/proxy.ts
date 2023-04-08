@@ -2,7 +2,7 @@ import { APIGatewayEvent, APIGatewayProxyResult } from "aws-lambda";
 
 export const handler = async (
   event: APIGatewayEvent
-): PRomise<APIGatewayProxyResult> => {
+): Promise<APIGatewayProxyResult> => {
   console.log("proxy lambda executed", event);
 
   return {
