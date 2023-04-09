@@ -24,6 +24,7 @@
   "dependencies": {
     "@aws-cdk/aws-apigatewayv2": "^1.198.1",
     "@aws-cdk/aws-apigatewayv2-integrations": "^1.198.1",
+    "@aws-cdk/aws-cognito": "^1.198.1",
     "@aws-cdk/aws-lambda": "^1.198.1",
     "@types/aws-lambda": "^8.10.114",
     "aws-cdk-lib": "2.53.0",
